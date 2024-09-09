@@ -13,9 +13,9 @@ data class Fireball(
     @JsonProperty("alt")
     val alt: Long,
     @JsonProperty("lon")
-    val lon: Long,
+    val longitude: Long,
     @JsonProperty("lat")
-    val lat: Long,
+    val latitude: Long,
     @JsonProperty("lon_dir")
     val lonDir: String,
     @JsonProperty("lat_dir")
