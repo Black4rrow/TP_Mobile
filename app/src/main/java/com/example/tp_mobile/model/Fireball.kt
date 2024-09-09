@@ -9,7 +9,7 @@ data class Fireball(
     @JsonProperty("impact_e")
     val impactE: Double,
     @JsonProperty("vel")
-    val vel: Long,
+    val velocity: Long,
     @JsonProperty("alt")
     val alt: Long,
     @JsonProperty("lon")
